@@ -1,5 +1,5 @@
-This project implements a Naive Bayes classifier that is trained using 25,000 positive and negative reviews gathered from imdb.com. 
-The classifier is then tested on an additional 25,000 test files.
+This project implements a Naive Bayes classifier that is trained using 25,000 positive and negative reviews gathered from imdb.com. After training, the program will output the probability assigned to each lexicon during the process.
+The classifier is then tested on an additional 25,000 test files which creates one output file comparing the prediction from the model to the actual label (positive or negative) provided in the test data.
 
 pre-processing.py:
 1. The vocabulary file must be named "imdb.vocab" and must appear in the same directory as the program file.
